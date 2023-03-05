@@ -1,0 +1,55 @@
+#services {
+  padding: 100px 10%;
+  color: var(--gunmetalBlack);
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.services-list div {
+  background-color: var(--darkCyan);
+  color: var(--defaultWhite);
+  padding: 30px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  border-radius: 15px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.services-list div:hover {
+  background-color: var(--amaranthPurple);
+  transform: translateY(-10px);
+}
+
+.services-list div i {
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.services-list div h2 {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.services-list div p {
+  margin: 10px 0 20px;
+}
+
+.services-list div a {
+  text-decoration: none;
+  color: var(--mustardYellow);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.services-list div a:hover {
+  border-bottom: 2px solid white;
+}
+
+.services-list div a:active {
+  font-size: 1.1rem;
+}

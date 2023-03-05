@@ -1,0 +1,148 @@
+#contact {
+  padding: 100px 10%;
+}
+
+/******************** Contact Left Side  ********************/
+.contact-left {
+  flex-basis: 35%;
+}
+
+.contact-left h1 {
+  margin-bottom: 20px;
+}
+
+.contact-left a {
+  text-decoration: none;
+}
+
+.contact-left p {
+  margin-bottom: 10px;
+}
+
+.contact-left p i {
+  color: var(--darkCyan);
+  margin-right: 15px;
+  font-size: 1.2rem;
+}
+
+.contact-media-icons a {
+  font-size: 1.7rem;
+  margin-right: 20px;
+}
+
+.contact-media-icons a i {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.contact-media-icons a i:hover {
+  scale: 1.2;
+}
+
+.contact-media-icons a i:active {
+  scale: 1;
+}
+
+.contact-media-icons .fa-square-facebook {
+  color: #4267b2;
+}
+
+.contact-media-icons .fa-square-instagram {
+  color: #dd2a7b;
+}
+.contact-media-icons .fa-square-twitter {
+  color: #1da1f2;
+}
+.contact-media-icons .fa-square-pinterest {
+  color: #e60023;
+}
+
+#application-btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--darkCyan);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#application-btn a {
+  color: var(--defaultWhite);
+  font-size: 1rem;
+}
+
+#application-btn:hover {
+  background-color: var(--lightCyan);
+}
+
+#application-btn:active {
+  scale: 0.95;
+}
+/******************** Contact Right Side  ********************/
+
+.contact-right {
+  flex-basis: 60%;
+}
+
+.contact-right form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: var(--darkCyan);
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #ffffffa4;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ffffffa4;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ffffffa4;
+  opacity: 1;
+}
+
+.submit-btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--amaranthPurple);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.submit-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.submit-btn:hover {
+  background-color: var(--amaranthLight);
+}
+
+.submit-btn:active {
+  scale: 0.95;
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/banner.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/services.css">
+    <link rel="stylesheet" href="./styles/gallery.css">
+    <link rel="stylesheet" href="./styles/lightbox.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <title>Lola Foundation</title>
+  </head>
+  <body>
+
+    <!-------------------- Main -------------------->
+    <section id="main-section">
+      <div class="banner">
+        <div class="media-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+      </div>
+      <header id="main-header">
+        <h2>
+          <a href="#" id="main-logo"><span>Lola</span> Foundation</a>
+        </h2>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="hero-section">
+        <h2>SAVE A LIFE<br /><span>ADOPT A PET!</span></h2>
+        <p>
+          Welcome to the Lola Foundation! We finance pet care and promote
+          adoption for pets. Our mission is driven by our love for animals. We
+          provide financial support for routine check-ups and emergencies. Adopt
+          a pet and spread love and compassion!
+        </p>
+        <button id="info-btn"><a href="#">More Info</a></button>
+      </div>
+    </section>
+
+    <!-------------------- About -------------------->
+    <section id="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./img/dog_with_kid.jpg" alt="/" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Us</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              animi ad totam omnis impedit dolorem aut magni ea reiciendis
+              aliquid dolore cupiditate dolor nulla, quaerat doloremque
+              quibusdam ratione accusamus molestiae! Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. debitis!
+            </p>
+            <div class="tab-titles">
+              <p
+                class="tab-links active-link"
+                onclick="openTab(event, 'history');"
+              >
+                History
+              </p>
+              <p class="tab-links" onclick="openTab(event, 'mission');">
+                Mission
+              </p>
+              <p class="tab-links" onclick="openTab(event, 'future')">Future</p>
+              <p class="tab-links" onclick="openTab(event, 'staff')">Staff</p>
+            </div>
+            <div class="tab-contents active-tab" id="history">
+              <p>
+                The Lola Foundation was founded in 2023 on Cape Cod by a group
+                of passionate animal lovers. After losing their loyal friend and
+                pet, Lola, they were inspired to make a difference in the lives
+                of other pets and their owners. Starting as a grassroots
+                organization, they aimed to raise funds to support pet owners in
+                need, including financing medical expenses and promoting
+                <!-- adoption. As they grew, they partnered with local shelters and
+                animal rescue organizations, expanding their mission to include
+                facilitating rescue efforts and providing access to health and
+                training resources. Today, the Lola Foundation remains committed
+                to promoting the well-being of pets and their owners. They
+                continue to raise funds for financial support and provide
+                resources to ensure pets receive the best possible care. Their
+                efforts have helped countless pets and their owners, making them
+                a driving force for positive change in the pet community. -->
+              </p>
+            </div>
+            <div class="tab-contents" id="mission">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                tempora fuga aliquid laudantium natus eveniet sint illo labore
+                sit corrupti excepturi impedit ab ducimus, magni dolorem
+                asperiores a praesentium architecto! Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Quas sit aperiam, obcaecati, velit
+                similique modi odit aliquam ipsa temporibus corporis omnis ipsum
+                vel iste, quibusdam nisi iure ducimus vitae doloremque. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Velit rem
+                labore quod eum impedit totam obcaecati adipisci accusamus
+                dolore, necessitatibus soluta consequatur id itaque,
+                consequuntur distinctio odio vitae iure ex?
+              </p>
+            </div>
+            <div class="tab-contents" id="future">
+              <ul>
+                <li><span>Executive Director</span><br />Harvard University</li>
+                <li><span>Development Director/span><br />Cal Tech</li>
+                <li><span>Program Director</span><br />Boston University</li>
+              </ul>
+              
+            </div>
+            <div class="tab-contents" id="staff">
+              <ul>
+                <li><span>Executive Director</span><br />Ashley Johnson</li>
+                <li><span>Development Director</span><br />Ryan Matthews</li>
+                <li><span>Program Director</span><br />Karen Wilson</li>
+              </ul>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------- Services -------------------->
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <h2>Health  Care</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore itaque perferendis cumque. Iure molestiae qui accusamus voluptatibus possimus sed numquam nisi animi sapiente laudantium porro voluptatem hic quasi, deserunt excepturi?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-dog"></i>
+                    <h2>Adoption</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore itaque perferendis cumque. Iure molestiae qui accusamus voluptatibus possimus sed numquam nisi animi sapiente laudantium porro voluptatem hic quasi, deserunt excepturi?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <h2>Financing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore itaque perferendis cumque. Iure molestiae qui accusamus voluptatibus possimus sed numquam nisi animi sapiente laudantium porro voluptatem hic quasi, deserunt excepturi?</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------- Gallery-------------------->
+    <section id="gallery">
+        <h1 class="sub-title">Gallery</h1>
+        <div class="container">
+            <div class="img-gallery">
+                <a href="./img/img_01.jpg" data-lightbox="models" data-title="Bella">
+                    <img src="./img/img_01.jpg" alt="/">
+                </a>
+                <a href="./img/img_02.jpg" data-lightbox="models" data-title="Luna">
+                    <img src="./img/img_02.jpg" alt="/">
+                </a>
+                <a href="./img/img_03.jpg" data-lightbox="models" data-title="Brady, Julian, & Gronk">
+                    <img src="./img/img_03.jpg" alt="/">
+                </a>
+                <a href="./img/img_04.jpg" data-lightbox="models" data-title="Waffles">
+                    <img src="./img/img_04.jpg" alt="/">
+                </a>
+                <a href="./img/img_05.jpg" data-lightbox="models" data-title="Oliver">
+                    <img src="./img/img_05.jpg" alt="/">
+                </a>
+                <a href="./img/img_06.jpg" data-lightbox="models" data-title="Clancy">
+                    <img src="./img/img_06.jpg" alt="/">
+                </a>
+                <a href="./img/img_07.jpg" data-lightbox="models" data-title="Peanut">
+                    <img src="./img/img_07.jpg" alt="/">
+                </a>
+                <a href="./img/img_08.jpg" data-lightbox="models" data-title="Tom & Hank">
+                    <img src="./img/img_08.jpg" alt="/">
+                </a>
+        </div>
+    </section>
+
+    <!-------------------- Contact -------------------->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-envelope"></i>info@lolafoundation.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>508.867.5309</p>
+                    <div class="contact-media-icons">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-pinterest"></i></a>
+                    </div>
+                    <button id="application-btn"><a href="./data/data.txt" download >Download Application</a></button>
+                    
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <div class="copyright">&copy;  2023  |  J24  Design </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+    <script src="./lightbox/lightbox-plus-jquery.js"></script>
+  </body>
+</html>
+
+

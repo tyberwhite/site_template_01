@@ -1,0 +1,29 @@
+#main-section .banner {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 10%;
+  background-color: var(--darkCyan);
+}
+
+.media-icons a {
+  color: var(--defaultWhite);
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.media-icons a i:hover {
+  scale: 1.2;
+}
+
+.media-icons a i:active {
+  scale: 1;
+}
+
+/*********** Small Screens ***********/
+
+@media only screen and (max-width: 600px) {
+  #main-section .banner {
+    justify-content: center;
+    width: 100%;
+  }
+}
